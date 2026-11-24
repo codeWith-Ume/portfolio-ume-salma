@@ -1,0 +1,115 @@
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page */
+body {
+    min-height: 100vh;
+    background-color: #101010;
+    color: #d93636;
+    font-family: Georgia, serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: radial-gradient(#292020 0.7px, transparent 0.7px);
+    background-size: 4px 4px;
+}
+
+/* Homepage container */
+.homepage {
+    width: 90%;
+    max-width: 520px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Name and introduction */
+.intro {
+    margin-bottom: 55px;
+}
+
+.intro h1 {
+    font-size: clamp(65px, 12vw, 105px);
+    font-weight: normal;
+    line-height: 0.85;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    text-align: left;
+}
+
+.navigation a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #d93636;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+/* Dotted connecting line */
+.navigation a::after {
+    content: "";
+    border-bottom: 1px dotted #d93636;
+    flex: 1;
+    margin: 0 12px;
+    order: 1;
+}
+
+.navigation a span:first-child {
+    order: 0;
+}
+
+.navigation a span:last-child {
+    order: 2;
+}
+
+/* Hover effect */
+.navigation a:hover {
+    color: #ff7777;
+}
+
+/* Footer */
+footer {
+    margin-top: 65px;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    .homepage {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    .navigation a {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .intro {
+        margin-bottom: 45px;
+    }
+}
