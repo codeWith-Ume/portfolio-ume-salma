@@ -113,3 +113,89 @@ footer {
         margin-bottom: 45px;
     }
 }
+
+
+/* ABOUT PAGE */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap');
+.about-page {
+    min-height: 100vh;
+    background-color: #101010;
+    color: #ed3939;
+    font-family: "IM Fell English", Georgia, serif;
+    display: block;
+    padding: 55px 20px;
+}
+
+.about-container {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.page-number {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+
+.about-heading {
+    text-align: center;
+    font-family: "IM Fell English SC", Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 55px;
+}
+
+.about-content {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.about-content p {
+    margin-bottom: 25px;
+}
+
+.about-photo {
+    width: 112px;
+    height: 145px;
+    object-fit: cover;
+    object-position: center top;
+    border: 1px solid #ed3939;
+    float: left;
+    margin: 5px 17px 10px 0;
+}
+
+.drop-cap {
+    font-size: 42px;
+    float: left;
+    line-height: 0.8;
+    margin-right: 3px;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    color: #ed3939;
+    text-decoration: none;
+    font-size: 13px;
+    margin-top: 55px;
+}
+
+.back-home:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 480px) {
+    .about-container {
+        max-width: 100%;
+    }
+
+    .about-heading {
+        font-size: 36px;
+    }
+
+    .about-content {
+        font-size: 15px;
+    }
+}
