@@ -295,3 +295,69 @@ footer {
     color: white;
     text-decoration: underline;
 }
+
+
+.experience-page {
+    display: block;
+    min-height: 100vh;
+    padding: 55px 20px;
+    background-color: #101010;
+    color: #ed3939;
+    font-family: "IM Fell English", Georgia, serif;
+}
+
+.experience-container {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.experience-content {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.experience-content p {
+    margin-bottom: 20px;
+}
+
+.experience-content h2 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 30px 0 5px;
+}
+
+.experience-meta {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.certificate-link {
+    display: inline-block;
+    color: #ed3939;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px dotted #ed3939;
+    padding-bottom: 3px;
+    margin: 5px 0 15px;
+}
+
+.certificate-link:hover {
+    color: white;
+}
+
+.experience-divider {
+    border-top: 1px dotted #ed3939;
+    margin: 30px 0;
+}
+
+@media (max-width: 480px) {
+    .experience-content {
+        font-size: 15px;
+    }
+
+    .experience-content h2 {
+        font-size: 19px;
+    }
+}
