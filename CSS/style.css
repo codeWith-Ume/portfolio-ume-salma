@@ -453,3 +453,59 @@ footer {
         font-size: 21px;
     }
 }
+
+
+.explore-next-page {
+    display: block;
+    min-height: 100vh;
+    padding: 55px 20px;
+    background-color: #101010;
+    color: #ed3939;
+    font-family: "IM Fell English", Georgia, serif;
+}
+
+.explore-next-container {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.explore-next-content {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.explore-next-content h2 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 30px 0 15px;
+}
+
+.explore-next-content p {
+    margin-bottom: 20px;
+}
+
+.explore-next-content ul {
+    padding-left: 22px;
+    margin-bottom: 22px;
+}
+
+.explore-next-content li {
+    margin-bottom: 10px;
+}
+
+.explore-divider {
+    border-top: 1px dotted #ed3939;
+    margin: 35px 0;
+}
+
+@media (max-width: 480px) {
+    .explore-next-content {
+        font-size: 15px;
+    }
+
+    .explore-next-content h2 {
+        font-size: 20px;
+    }
+}
