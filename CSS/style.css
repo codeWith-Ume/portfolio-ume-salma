@@ -361,3 +361,95 @@ footer {
         font-size: 19px;
     }
 }
+
+
+.activities-page {
+    display: block;
+    min-height: 100vh;
+    padding: 55px 20px;
+    background-color: #101010;
+    color: #ed3939;
+    font-family: "IM Fell English", Georgia, serif;
+}
+
+.activities-container {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.activities-content {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.activities-content p {
+    margin-bottom: 20px;
+}
+
+.activities-content h2 {
+    font-size: 23px;
+    font-weight: normal;
+    margin: 35px 0 15px;
+}
+
+.activities-content h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 25px 0 8px;
+}
+
+.activities-content h4 {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 22px 0 5px;
+}
+
+.activities-content ul {
+    padding-left: 22px;
+    margin-bottom: 22px;
+}
+
+.activities-content li {
+    margin-bottom: 7px;
+}
+
+.activities-content .reflection {
+    font-style: italic;
+    padding-left: 12px;
+    border-left: 1px solid #ed3939;
+}
+
+.learning-outcome {
+    margin-top: 25px;
+}
+
+.activity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+    font-size: 14px;
+}
+
+.activity-table th,
+.activity-table td {
+    text-align: left;
+    padding: 7px 5px;
+    border-bottom: 1px dotted #ed3939;
+}
+
+.activity-divider {
+    border-top: 1px dotted #ed3939;
+    margin: 35px 0;
+}
+
+@media (max-width: 480px) {
+    .activities-content {
+        font-size: 15px;
+    }
+
+    .activities-content h2 {
+        font-size: 21px;
+    }
+}
