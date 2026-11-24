@@ -199,3 +199,99 @@ footer {
         font-size: 15px;
     }
 }
+
+
+/* EXPLORED PAGE */
+
+.explored-page {
+    display: block;
+    min-height: 100vh;
+    padding: 55px 20px;
+    background-color: #101010;
+    color: #ed3939;
+    font-family: "IM Fell English", Georgia, serif;
+}
+
+.explored-container {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.explored-content {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.explored-content p {
+    margin-bottom: 24px;
+}
+
+.explored-content h2 {
+    font-size: 21px;
+    font-weight: normal;
+    margin: 30px 0 15px;
+}
+
+.explored-content ul {
+    padding-left: 22px;
+    margin-bottom: 24px;
+}
+
+.explored-content li {
+    margin-bottom: 8px;
+}
+
+/* Project screenshots */
+
+.project-preview {
+    width: 100%;
+    max-width: 410px;
+    margin: 30px auto;
+}
+
+.project-preview img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ed3939;
+}
+
+.image-caption {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin: 7px 0 30px;
+}
+
+.image-caption span:last-child {
+    font-size: 12px;
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    .explored-container {
+        max-width: 100%;
+    }
+
+    .explored-content {
+        font-size: 15px;
+    }
+
+    .explored-content h2 {
+        font-size: 19px;
+    }
+}
+.image-caption a {
+    color: #ed3939;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.image-caption a:hover {
+    color: white;
+    text-decoration: underline;
+}
